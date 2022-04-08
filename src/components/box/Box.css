@@ -1,0 +1,18 @@
+.react-draggable {
+    box-sizing: border-box;
+    position: absolute;
+    background: #61dafb;
+}
+.react-resizable {
+    position: relative;
+}
+
+.react-resizable-handle { position: absolute; }
+.react-resizable-handle-n { top: -4px; right: 0px; bottom: initial; left: 0px; height: 4px; cursor: n-resize; }
+.react-resizable-handle-e { top: 0px; right: -4px; bottom: 0px; left: initial; width: 4px; cursor: e-resize; }
+.react-resizable-handle-s { top: initial; right: 0px; bottom: -4px; left: 0px; height: 4px; cursor: s-resize; }
+.react-resizable-handle-w { top: 0px; right: initial; bottom: 0px; left: -4px; width: 4px; cursor: w-resize; }
+.react-resizable-handle-nw { top: -4px; right: initial; bottom: initial; left: -4px; height: 4px; width: 4px; cursor: nw-resize; }
+.react-resizable-handle-ne { top: -4px; right: -4px; bottom: initial; left: initial; height: 4px; width: 4px; cursor: ne-resize; }
+.react-resizable-handle-sw { top: initial; right: initial; bottom: -4px; left: -4px; height: 4px; width: 4px; cursor: sw-resize; }
+.react-resizable-handle-se { top: initial; right: -4px; bottom: -4px; left: initial; height: 4px; width: 4px; cursor: se-resize; }
